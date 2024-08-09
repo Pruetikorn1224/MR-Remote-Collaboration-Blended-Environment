@@ -1,1 +1,1 @@
-# MR-Remote-Collaboration-Blended-Environment
+# Mixed Reality Remote Collaboration in Blended Virtual Environment: User Interaction Experiment
