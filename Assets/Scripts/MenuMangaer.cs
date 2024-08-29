@@ -146,7 +146,7 @@ public class MenuMangaer : MonoBehaviour
     // Show Rubik's cubes regarding to the state of rooms
     // { 5, 0, 8 }
     // { 1, 6, 9 }
-    // { 3, 7, 4 }
+    // { 2, 7, 4 }
     private void SetRubric(int setIndex)
     {
         Transform tasksTransform = GameObject.Find("Environment/Surrounding/Tasks").gameObject.transform;
@@ -160,7 +160,7 @@ public class MenuMangaer : MonoBehaviour
             {
                 tasksTransform.GetChild(i).gameObject.SetActive(true);
             }
-            else if (setIndex == 2 && (i == 3 || i == 4 || i == 7))
+            else if (setIndex == 2 && (i == 2 || i == 4 || i == 7))
             {
                 tasksTransform.GetChild(i).gameObject.SetActive(true);
             }
